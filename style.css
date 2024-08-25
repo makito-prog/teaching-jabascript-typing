@@ -1,0 +1,75 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(30, 87, 68);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff1a;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    text-align: center;
+    width: 350px;
+    backdrop-filter: blur(10px);
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+#wordDisplay {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    color: #ffeb3b;
+    letter-spacing: 2px;
+}
+
+#wordInput {
+    font-size: 1.4rem;
+    padding: 12px 15px;
+    width: 60%;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    outline: none;
+}
+
+#wordInput::placeholder {
+    color: #ddd;
+}
+
+#startButton {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#startButton:hover {
+    background-color: #e64a19;
+    transform: translateY(-2px);
+}
+
+#result {
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #ffeb3b;
+}
